@@ -1,0 +1,16 @@
+.status {
+	border-bottom: solid 1px #e5e5e5;
+	padding: 5px 0 5px 0;
+}
+.status p {
+
+}
+.status.hover {
+	background: #f1f1f1;
+}
+.status .admin {
+	opacity: 0.0;
+}
+.status.hover .admin {
+	opacity: 1.0;
+}
