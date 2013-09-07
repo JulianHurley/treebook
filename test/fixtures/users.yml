@@ -1,0 +1,13 @@
+julian:
+ id: 1
+ first_name: 'julian'
+ last_name: 'awesome'
+ email: 'profile_name@lol.com'
+ profile_name: 'robsmelly'
+
+rob:
+ id: 2
+ first_name: 'rob'
+ last_name: 'smelly'
+ email: 'rob@smelly.com'
+ profile_name: 'robsmelly'

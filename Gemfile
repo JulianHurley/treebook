@@ -21,7 +21,11 @@ group :assets do
 end
 
 gem 'jquery-rails'
+gem 'devise'
+gem 'simple_form'
+gem 'minitest'
 
+gem 'bcrypt-ruby', :require => 'bcrypt'
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 

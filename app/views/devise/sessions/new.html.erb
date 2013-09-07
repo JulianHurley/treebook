@@ -1,0 +1,23 @@
+<div class="row">
+	<div class="span4 well">
+		<%= simple_form_for(resource, :as => resource_name, :url => session_path(resource_name)) do |f| %>
+		<fieldset>
+			<legend>Sign In</legend>
+
+		  <%= f.input :email %>
+		  <%= f.input :password %>
+
+
+		  <% if devise_mapping.rememberable? -%>
+		    <%= f.input :remember_me, as: :boolean %>
+		  <% end -%>
+
+		  <%= f.button :submit, "Sign in" %>
+		<% end %>
+	</fieldset>
+	</div>
+	<div class="span7">
+		<h2>Signing in is easy and secure thanks to the intuitive nature of rails. Friendly to both developers and end users! PHP and Zend are honourable, and dependable, like a knight and horse in armour. They are also yesterday's way of doing things. Make way for the rail gun toting warrior princess whose name is Ruby.</h2>
+	</div>
+</div>
+<%= render "devise/shared/links" %>
